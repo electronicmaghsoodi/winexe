@@ -27,11 +27,11 @@ jobs:
     - name: Build EXE
       run: |
         cd SuperLWPC/gui
-        pyinstaller ^
-          --windowed ^
-          --hidden-import=matplotlib.backends.backend_qt5agg ^
-          --add-data "main.ui;." ^
-          --add-data "Ui_InputGen.ui;." ^
+        pyinstaller `
+          --windowed `
+          --hidden-import=matplotlib.backends.backend_qt5agg `
+          --add-data "main.ui;." `
+          --add-data "Ui_InputGen.ui;." `
           main.py
 
     - name: Upload EXE
