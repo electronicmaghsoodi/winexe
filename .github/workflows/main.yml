@@ -38,4 +38,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: LWPC-GUI-EXE
-        path: SuperLWPC/gui/dist/
+        path: SuperLWPC-main\gui
