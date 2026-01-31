@@ -13,7 +13,7 @@ jobs:
 
     - name: Extract ZIP
       run: |
-        tar -xf SuperLWPC.zip
+        tar -xf SuperLWPC-main.zip
 
     - name: Set up Python
       uses: actions/setup-python@v5
